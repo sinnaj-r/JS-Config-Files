@@ -1,0 +1,44 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node":true,
+        "es6":true
+    },
+    "plugins": [
+        "react",
+        "promise",
+        "graphql",
+        "flowtype"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:promise/recommended",
+        "plugin:flowtype/recommended"
+    ],
+    "globals":{
+        "realm":true,
+        "renderName":true,
+        "getSettings":true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "no-console": 0
+    }
+}

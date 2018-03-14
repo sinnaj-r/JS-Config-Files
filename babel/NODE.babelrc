@@ -1,0 +1,7 @@
+{
+  "presets": ["flow", "node6"],
+  "ignore": [
+      "node_modules/**",
+      "build/**"
+  ]
+}

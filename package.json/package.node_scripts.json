@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "build": "NODE_ENV=production babel . --out-dir build --ignore 'build/,flow-typed/,node_modules/'",
+        "build-win": "set NODE_ENV=production && babel . --out-dir build --ignore 'build/,flow-typed/,node_modules/'",
+        "serve": "NODE_ENV=production node build/app.js",
+        "start": "NODE_ENV=development babel-node app.js",
+        "debug": "NODE_ENV=development babel-node --inspect app.js",
+        "profile": "yarn build && cd build && NODE_ENV=development node --prof app.js",
+        "analyse": "node --prof-process build/*.log > processed.txt",
+        "start-win": "set NODE_ENV=development&&babel-node app.js",
+        "debug-win": "set NODE_ENV=development&&babel-node --inspect app.js",
+        "lint": "eslint ."
+      }
+}

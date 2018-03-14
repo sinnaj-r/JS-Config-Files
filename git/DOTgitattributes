@@ -1,0 +1,17 @@
+# Set all TextFiles with Linux line endings
+*.js text eol=lf
+*.yml text eol=lf
+*.conf text eol=lf
+*.ejs text eol=lf
+*.jsx text eol=lf
+*.html text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.scss text eol=lf
+*.css text eol=lf
+*.png binary auto
+*.jpg binary auto
+*.jpeg binary auto
+*.ico binary auto
